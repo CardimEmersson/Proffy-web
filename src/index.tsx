@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+
+//yarn create react-app web --template typescript
+//yarn start
+//delete o readme.md, app.css, index.css, app.test.tsx, logo.svg, serviceWorker.ts, setupTests.ts
+//delete da pasta public: tudo menos o index
+//
+//yarn add react-router-dom
+//yarn add @types/react-router-dom -D
+//sugestão: react-select para estilizar os campos tipo select
+//yarn add axios
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +21,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
